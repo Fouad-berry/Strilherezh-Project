@@ -10,7 +10,7 @@ export default function Navbar() {
         
         <div className="flex items-center gap-2">
           <Menu className="w-5 h-5" />
-          <span className="text-sm font-medium">Menu</span>
+          <span className="text-sm font-light font-sans">Menu</span>
         </div>
 
         <Link href="/" className="flex items-center justify-center text-center">
@@ -24,11 +24,11 @@ export default function Navbar() {
         </Link>
 
         <div className="flex items-center gap-6">
-          <Link href="/account" className="flex items-center gap-1 text-sm font-medium">
+          <Link href="/account" className="flex items-center gap-1 text-sm font-light font-sans">
             <User className="w-5 h-5" />
             <span>Compte</span>
           </Link>
-          <Link href="/cart" className="flex items-center gap-1 text-sm font-medium">
+          <Link href="/cart" className="flex items-center gap-1 text-sm font-light font-sans">
             <ShoppingCart className="w-5 h-5" />
             <span>Panier</span>
           </Link>
