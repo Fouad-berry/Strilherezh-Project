@@ -6,7 +6,7 @@ import styles from "./SecondaryBar.module.css";
 
 export default function SecondaryBar() {
   return (
-    <div className="w-full bg-orange-500 text-white">
+    <div className="w-full text-white primaryBackgroundColor">
       <div className="w-full px-10 py-2 flex items-center justify-between">
         
         <div className="flex items-center">

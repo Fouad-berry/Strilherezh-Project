@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primaryColor: rgba(224, 170, 62, 1);
 }
 
 @theme inline {
@@ -26,9 +27,13 @@ body {
 }
 
 .primaryColor{
-  color: rgba(224, 170, 62, 1);
+  color: var(--primaryColor);
 }
 
 .secondaryColor{
   color: rgba(80, 80, 80, 1);
+}
+
+.primaryBackgroundColor{
+  background-color: var(--primaryColor);
 }
