@@ -10,7 +10,7 @@ export default function Navbar() {
         
         <div className="flex items-center gap-2">
           <Menu className="w-5 h-5" />
-          <span className="text-sm font-light font-sans">Menu</span>
+          <span className="text-sm font-light font-sans cursor-pointer">Menu</span>
         </div>
 
         <Link href="/" className="flex items-center justify-center text-center">
