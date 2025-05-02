@@ -28,3 +28,7 @@ body {
 .primaryColor{
   color: rgba(224, 170, 62, 1);
 }
+
+.secondaryColor{
+  color: rgba(80, 80, 80, 1);
+}

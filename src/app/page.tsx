@@ -23,6 +23,13 @@ const page = () => {
           <p className="text-md mt-1 font-normal">L'essence de la bretagne en chaque goutte.</p>
         </div>
       </div>
+
+      <div className=" flex flex-col items-center justify-center text-white text-center px-4">
+          <h1 className="text-2xl mt-10 font-medium secondaryColor ">Nos maisons</h1>
+          <p className="text-md mt-1 mb-10 font-normal primaryColor">Découvrez nos différents produits</p>
+      </div>
+
+      Bonjour
     </div>
   );
 };
