@@ -60,7 +60,7 @@ const page = () => {
           <p className="text-sm font-extralight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quod voluptas. Repellendus nam reprehenderit atque, culpa eum placeat quas dolores quibusdam qui delectus, ex odio sequi! Quas, cupiditate atque. Ab.</p>
           <p className="text-sm font-extralight mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus est ullam cupiditate? Recusandae nesciunt nostrum odit, velit numquam eos nihil nemo quibusdam possimus, totam maiores tempore! Aspernatur suscipit omnis accusantium.</p>
           <div className="self-start">
-            <Button title="Voir les produits" route="/produits" />
+            <Button title="Découvrir notre histoire" route="/produits" />
           </div>
         </div>
       </div>
