@@ -31,6 +31,11 @@ const page = () => {
       </div>
 
       <ProductCategories />
+
+      <div className=" flex flex-col items-center justify-center text-white text-center px-4">
+          <h1 className="text-2xl mt-10 mb-10 font-medium secondaryColor ">Nouveautés</h1>
+      </div>
+
     </div>
   );
 };
