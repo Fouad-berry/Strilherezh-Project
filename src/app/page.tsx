@@ -5,6 +5,8 @@ import React from 'react';
 import banner from '@/assets/images/banner.jpg';
 import ProductCategories from '@/components/ProductsCategories/ProductsCategories';
 import ProductGrid from '@/components/ProductGrid/ProductGrid';
+import ButtonLink from '@/components/Button/Button';
+import Button from '@/components/Button/Button';
 
 const page = () => {
   return (
@@ -49,7 +51,7 @@ const page = () => {
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 flex flex-col justify-center pl-10 text-white text-left px-4 w-full sm:w-3/4 lg:w-1/2">
+        <div className="absolute inset-0 flex flex-col justify-center pl-10 text-white text-left px-4 w-full sm:w-3/4 lg:w-1/2 z-10">
           <h1 className="text-xl font-bold mb-2 text-left">Notre histoire</h1>
           <p className="text-sm font-extralight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quod voluptas. Repellendus nam reprehenderit atque, culpa eum placeat quas dolores quibusdam qui delectus, ex odio sequi! Quas, cupiditate atque. Ab.</p>
           <p className="text-sm font-extralight mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus est ullam cupiditate? Recusandae nesciunt nostrum odit, velit numquam eos nihil nemo quibusdam possimus, totam maiores tempore! Aspernatur suscipit omnis accusantium.</p>
@@ -57,8 +59,12 @@ const page = () => {
           <p className="text-sm font-extralight mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus est ullam cupiditate? Recusandae nesciunt nostrum odit, velit numquam eos nihil nemo quibusdam possimus, totam maiores tempore! Aspernatur suscipit omnis accusantium.</p>
           <p className="text-sm font-extralight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quod voluptas. Repellendus nam reprehenderit atque, culpa eum placeat quas dolores quibusdam qui delectus, ex odio sequi! Quas, cupiditate atque. Ab.</p>
           <p className="text-sm font-extralight mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus est ullam cupiditate? Recusandae nesciunt nostrum odit, velit numquam eos nihil nemo quibusdam possimus, totam maiores tempore! Aspernatur suscipit omnis accusantium.</p>
+          <div className="self-start">
+            <Button title="Voir les produits" route="/produits" />
+          </div>
         </div>
       </div>
+      
 
       {/* Section 5 */}
       
