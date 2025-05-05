@@ -1,26 +1,28 @@
 import React from 'react';
-import styles from './ProductCategories.module.css';
+import Image from 'next/image';
+import styles from './ProductsCategories.module.css';
+import alcool from '@/assets/images/alcool.jpg';
 
 const categories = [
   {
     title: 'Nos Whiskys',
     description: 'Découvrez notre sélection de whiskys d’exception aux arômes raffinés.',
-    image: '@/assets/images/alcool.jpg',
+    image: alcool,
   },
   {
     title: 'Nos Cidres',
     description: 'Une gamme artisanale de cidres naturels et rafraîchissants.',
-    image: '@/assets/images/alcool.jpg',
+    image: alcool,
   },
   {
     title: 'Nos Vins',
     description: 'Une collection de vins soigneusement sélectionnés pour tous les palais.',
-    image: '@/assets/images/alcool.jpg',
+    image: alcool,
   },
   {
     title: 'Nos Exclus',
     description: 'Des produits uniques en édition limitée à ne pas manquer.',
-    image: '@/assets/images/alcool.jpg',
+    image: alcool,
   },
 ];
 
@@ -34,10 +36,12 @@ export default function ProductCategories() {
             className={`bg-white rounded-2xl overflow-hidden shadow-md ${styles.card}`}
           >
             <div className={styles.imageWrapper}>
-              <img
+              <Image
                 src={cat.image}
                 alt={cat.title}
-                className={`w-full h-48 object-cover ${styles.image}`}
+                className={`${styles.image} w-full h-48 object-cover`}
+                width={400}
+                height={200}
               />
             </div>
             <div className="p-4">

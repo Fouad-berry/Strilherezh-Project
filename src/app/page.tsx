@@ -3,6 +3,7 @@ import SecondaryBar from '@/components/SecondaryBar/SecondaryBar';
 import Image from 'next/image';
 import React from 'react';
 import banner from '@/assets/images/banner.jpg';
+import ProductCategories from '@/components/ProductsCategories/ProductsCategories';
 
 const page = () => {
   return (
@@ -29,7 +30,7 @@ const page = () => {
           <p className="text-md mt-1 mb-10 font-extralight text-black">Découvrez nos différents produits</p>
       </div>
 
-      Bonjour
+      <ProductCategories />
     </div>
   );
 };
