@@ -4,6 +4,7 @@ import Image from 'next/image';
 import React from 'react';
 import banner from '@/assets/images/banner.jpg';
 import ProductCategories from '@/components/ProductsCategories/ProductsCategories';
+import ProductGrid from '@/components/ProductGrid/ProductGrid';
 
 const page = () => {
   return (
@@ -36,6 +37,7 @@ const page = () => {
           <h1 className="text-2xl mt-10 mb-10 font-medium secondaryColor ">Nouveautés</h1>
       </div>
 
+      <ProductGrid />
     </div>
   );
 };
