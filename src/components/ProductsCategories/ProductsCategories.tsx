@@ -28,29 +28,25 @@ const categories = [
 
 export default function ProductCategories() {
   return (
-    <div className="py-10 px-4 sm:px-6 lg:px-8">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {categories.map((cat, idx) => (
-          <div
-            key={idx}
-            className={`bg-white rounded-2xl overflow-hidden shadow-md ${styles.card}`}
-          >
-            <div className={styles.imageWrapper}>
-              <Image
-                src={cat.image}
-                alt={cat.title}
-                className={`${styles.image} w-full h-58 object-cover`}
-                width={400}
-                height={200}
-              />
-            </div>
-            <div className="p-4">
-              <h3 className="text-xl font-semibold mb-2">{cat.title}</h3>
-              <p className="text-gray-600 text-sm">{cat.description}</p>
-            </div>
-          </div>
-        ))}
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+    {categories.map((cat, idx) => (
+      <div
+        key={idx}
+        className={`relative h-80 sm:h-96 lg:h-[28rem] ${styles.card}`} // Hauteurs augmentées ici
+      >
+        <Image
+          src={cat.image}
+          alt={cat.title}
+          fill
+          className={`object-cover ${styles.image}`}
+          sizes="(max-width: 768px) 100vw, 25vw"
+        />
+        <div className="absolute inset-0  bg-opacity-40 flex flex-col justify-end text-left text-white p-4">
+          <h3 className="text-2xl font-bold mb-2 text-left">{cat.title}</h3>
+          <p className="text-sm font-extralight">{cat.description}</p>
+        </div>
       </div>
-    </div>
+    ))}
+  </div>
   );
 }
