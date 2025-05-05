@@ -39,7 +39,7 @@ export default function ProductCategories() {
               <Image
                 src={cat.image}
                 alt={cat.title}
-                className={`${styles.image} w-full h-48 object-cover`}
+                className={`${styles.image} w-full h-58 object-cover`}
                 width={400}
                 height={200}
               />
