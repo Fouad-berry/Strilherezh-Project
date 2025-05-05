@@ -10,17 +10,17 @@ const categories = [
   {
     title: 'Nos Cidres',
     description: 'Une gamme artisanale de cidres naturels et rafraîchissants.',
-    image: '/images/cidre.jpg',
+    image: '@/assets/images/alcool.jpg',
   },
   {
     title: 'Nos Vins',
     description: 'Une collection de vins soigneusement sélectionnés pour tous les palais.',
-    image: '/images/vin.jpg',
+    image: '@/assets/images/alcool.jpg',
   },
   {
     title: 'Nos Exclus',
     description: 'Des produits uniques en édition limitée à ne pas manquer.',
-    image: '/images/exclus.jpg',
+    image: '@/assets/images/alcool.jpg',
   },
 ];
 
