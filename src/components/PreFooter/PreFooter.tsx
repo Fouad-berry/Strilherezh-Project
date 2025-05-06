@@ -45,27 +45,30 @@ const prefooterContent = [
     ];
 
 export default function PreFooter() {
-  return (
-    <div className="bg-white text-[rgba(170, 170, 170, 1)] py-12 px-6">
-      <div className="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8">
-        {prefooterContent.map((section, index) => (
-          <div key={index}>
-            <h3 className="text-lg font-semibold mb-4 primaryColor">{section.title}</h3>
-            <ul className="space-y-2 text-sm text-gray-400">
-              {section.items.map((item, idx) => (
-                <li key={idx}>
-                  <Link
-                    href={item.href}
-                    className=" transition-colors duration-200"
-                  >
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
+    return (
+            <div className="bg-white text-[rgba(170, 170, 170, 1)] py-12 px-6">
+            <div className="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8">
+                {prefooterContent.map((section, index) => (
+                <div key={index}>
+                    <h3 className="text-lg font-semibold mb-4 primaryColor">{section.title}</h3>
+                    <ul className="space-y-2 text-sm text-gray-400 cursor-pointer">
+                    {section.items.map((item, idx) => (
+                        <li key={idx}>
+                        <Link
+                            href={item.href}
+                            className="transition-colors duration-200"
+                        >
+                            {item.label}
+                        </Link>
+                        </li>
+                    ))}
+                    </ul>
+                </div>
+                ))}
+            </div>
+            <div className="text-center mt-12 text-xm font-light text-gray-400">
+                ©Skornenn 2025 - STRILHEREZH, France.
+            </div>
+        </div>
+    );
 }
