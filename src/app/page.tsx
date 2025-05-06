@@ -8,6 +8,7 @@ import ProductGrid from '@/components/ProductGrid/ProductGrid';
 import ButtonLink from '@/components/Button/Button';
 import Button from '@/components/Button/Button';
 import PreFooter from '@/components/PreFooter/PreFooter';
+import Footer from '@/components/Footer/Footer';
 
 const page = () => {
   return (
@@ -112,7 +113,8 @@ const page = () => {
           </div>
         </div>
       </div>
-      <PreFooter/>
+      <PreFooter />
+      <Footer />
     </div>
   );
 };

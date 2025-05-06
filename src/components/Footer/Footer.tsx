@@ -4,26 +4,26 @@ import { FaInstagram, FaFacebookF, FaXTwitter, FaLinkedinIn } from 'react-icons/
 
 export default function Footer() {
     return (
-        <footer className="bg-neutral-900 text-white py-6 px-4">
+        <footer className="bg-white text-white py-6 px-4">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
-            <ul className="flex flex-wrap gap-4 text-sm text-gray-400">
+            <ul className="flex flex-wrap gap-4 text-sm font-light text-gray-400">
             <li>
-                <Link href="/cgu" className="hover:text-white transition-colors">
+                <Link href="/cgu" className="hover:text-[rgba(224,170,62,1)] transition-colors">
                 CGU
                 </Link>
             </li>
             <li>
-                <Link href="/cgv" className="hover:text-white transition-colors">
+                <Link href="/cgv" className="hover:text-[rgba(224,170,62,1)] transition-colors">
                 CGV
                 </Link>
             </li>
             <li>
-                <Link href="/confidentialite" className="hover:text-white transition-colors">
+                <Link href="/confidentialite" className="hover:text-[rgba(224,170,62,1)] transition-colors">
                 Politique de confidentialité
                 </Link>
             </li>
             <li>
-                <Link href="/mentions-legales" className="hover:text-white transition-colors">
+                <Link href="/mentions-legales" className="hover:text-[rgba(224,170,62,1)] transition-colors">
                 Mentions légales
                 </Link>
             </li>
