@@ -5,7 +5,6 @@ import React from 'react';
 import banner from '@/assets/images/banner.jpg';
 import ProductCategories from '@/components/ProductsCategories/ProductsCategories';
 import ProductGrid from '@/components/ProductGrid/ProductGrid';
-import ButtonLink from '@/components/Button/Button';
 import Button from '@/components/Button/Button';
 import PreFooter from '@/components/PreFooter/PreFooter';
 import Footer from '@/components/Footer/Footer';
@@ -25,8 +24,8 @@ const page = () => {
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
           <h1 className="text-2xl font-light primaryColor ">STRILHEREZH</h1>
-          <p className="text-6xl mt-2 font-light uppercase">L'ACOOL BRETON</p>
-          <p className="text-md mt-1 font-normal">L'essence de la bretagne en chaque goutte.</p>
+          <p className="text-6xl mt-2 font-light uppercase">L&apos;ACOOL BRETON</p>
+          <p className="text-md mt-1 font-normal">L&apos;essence de la bretagne en chaque goutte.</p>
         </div>
       </div>
 
