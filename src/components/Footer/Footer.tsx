@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
-import { FaInstagram, FaFacebookF, FaXTwitter, FaLinkedinIn } from 'react-icons/fa6';
+import { FaInstagram, FaXTwitter } from 'react-icons/fa6';
+import { FiFacebook, FiLinkedin, } from "react-icons/fi";
 
 export default function Footer() {
     return (
@@ -34,13 +35,13 @@ export default function Footer() {
                         <FaInstagram className="hover:text-white transition-colors" />
                     </Link>
                     <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                        <FaFacebookF className="hover:text-white transition-colors" />
+                        <FiFacebook className="hover:text-white transition-colors" />
                     </Link>
                     <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
                         <FaXTwitter className="hover:text-white transition-colors" />
                     </Link>
                     <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                        <FaLinkedinIn className="hover:text-white transition-colors" />
+                        <FiLinkedin className="hover:text-white transition-colors" />
                     </Link>
                 </div>
             </div>
