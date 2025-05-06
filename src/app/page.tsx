@@ -7,6 +7,7 @@ import ProductCategories from '@/components/ProductsCategories/ProductsCategorie
 import ProductGrid from '@/components/ProductGrid/ProductGrid';
 import ButtonLink from '@/components/Button/Button';
 import Button from '@/components/Button/Button';
+import PreFooter from '@/components/PreFooter/PreFooter';
 
 const page = () => {
   return (
@@ -111,6 +112,7 @@ const page = () => {
           </div>
         </div>
       </div>
+      <PreFooter/>
     </div>
   );
 };
