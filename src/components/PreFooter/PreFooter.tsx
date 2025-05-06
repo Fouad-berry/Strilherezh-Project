@@ -1,5 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+import logo from '@/assets/images/alcool.jpg'; 
 
 const prefooterContent = [
     {
@@ -47,10 +49,16 @@ const prefooterContent = [
 export default function PreFooter() {
     return (
         <div className="bg-white text-[rgba(170, 170, 170, 1)] py-5 px-6">
-            <div className="mb-5 mt-5">
-                Cool
-            </div>
-            <div className="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8">
+        <div className="mb-5 mt-5 flex justify-center">
+            <Image
+            src={logo}
+            alt="Logo"
+            width={120}
+            height={40}
+            className="object-contain"
+            />
+        </div>            
+        <div className="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8">
                 {prefooterContent.map((section, index) => (
                 <div key={index}>
                     <h3 className="text-lg font-semibold mb-4 primaryColor">{section.title}</h3>
