@@ -32,16 +32,24 @@ export default function Footer() {
 
                 <div className="flex gap-4 text-gray-400 text-lg">
                     <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                        <FaInstagram className="hover:text-white transition-colors" />
+                        <div className="w-10 h-10 flex items-center justify-center rounded-full border border-gray-300 hover:border-[rgba(224,170,62,1)] transition-colors">
+                        <FaInstagram className="hover:text-[rgba(224,170,62,1)] transition-colors" />
+                        </div>
                     </Link>
                     <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                        <FiFacebook className="hover:text-white transition-colors" />
+                        <div className="w-10 h-10 flex items-center justify-center rounded-full border border-gray-300 hover:border-[rgba(224,170,62,1)] transition-colors">
+                        <FiFacebook className="hover:text-[rgba(224,170,62,1)] transition-colors" />
+                        </div>
                     </Link>
                     <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                        <FaXTwitter className="hover:text-white transition-colors" />
+                        <div className="w-10 h-10 flex items-center justify-center rounded-full border border-gray-300 hover:border-[rgba(224,170,62,1)] transition-colors">
+                        <FaXTwitter className="hover:text-[rgba(224,170,62,1)] transition-colors" />
+                        </div>
                     </Link>
                     <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                        <FiLinkedin className="hover:text-white transition-colors" />
+                        <div className="w-10 h-10 flex items-center justify-center rounded-full border border-gray-300 hover:border-[rgba(224,170,62,1)] transition-colors">
+                        <FiLinkedin className="hover:text-[rgba(224,170,62,1)] transition-colors" />
+                        </div>
                     </Link>
                 </div>
             </div>
