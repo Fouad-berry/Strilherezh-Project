@@ -46,7 +46,7 @@ const prefooterContent = [
 
 export default function PreFooter() {
     return (
-            <div className="bg-white text-[rgba(170, 170, 170, 1)] py-12 px-6">
+            <div className="bg-white text-[rgba(170, 170, 170, 1)] py-5 px-6">
             <div className="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8">
                 {prefooterContent.map((section, index) => (
                 <div key={index}>
