@@ -1,7 +1,6 @@
 // src/components/SecondaryBar.tsx
 import Link from "next/link";
 import Image from "next/image";
-import styles from "./SecondaryBar.module.css";
 
 
 export default function SecondaryBar() {
