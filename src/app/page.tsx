@@ -84,11 +84,13 @@ const page = () => {
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
             </div>
-            <div className="mt-6 flex flex-col items-end gap-4">
-              <Button title="Découvrir nos whisky" route="/nos-whisky" />
-              <Button title="Découvrir nos cidres" route="/nos-cidres" />
-              <Button title="Découvrir nos vins" route="/nos-vins" />
-              <Button title="Découvrir nos exclusivités" route="/nos-exclusivités" />
+            <div className="mt-6 flex justify-end">
+              <div className="w-[250px] flex flex-col gap-4">
+                <Button title="Découvrir nos whisky" route="/nos-whisky" />
+                <Button title="Découvrir nos cidres" route="/nos-cidres" />
+                <Button title="Découvrir nos vins" route="/nos-vins" />
+                <Button title="Découvrir nos exclusivités" route="/nos-exclusivités" />
+              </div>
             </div>
           </div>
         </div>
